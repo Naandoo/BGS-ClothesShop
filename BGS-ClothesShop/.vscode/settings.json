@@ -56,5 +56,9 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "BGS-ClothesShop.sln"
+    "dotnet.defaultSolution": "BGS-ClothesShop.sln",
+    "cSpell.words": [
+        "Behaviour",
+        "Scriptable"
+    ]
 }

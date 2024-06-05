@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c91777376da2a748be4e6fd39e66df6, type: 3}
+  m_Name: Wrist 4
+  m_EditorClassIdentifier: 
+  Sprite: {fileID: 21300000, guid: fde91a030e5382647a20ec036c8d578f, type: 3}
+  Price: 50
+  StorekeeperQuote: Wrist armor so good, you'll be tempted to challenge a dragon
+    to a thumb war!
+  Purchased: 0
+  SecondSideSprite: {fileID: 21300000, guid: c764210032bc5df46a28cb6e1f3ad991, type: 3}
