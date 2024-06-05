@@ -6,8 +6,8 @@ namespace Item
     public class ItemScriptable : ScriptableObject
     {
         public Sprite Sprite;
-        public float Price;
+        public int Price;
         public string StorekeeperQuote;
-        public bool Purchased;
+        public bool IsPurchased;
     }
 }
