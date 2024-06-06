@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Pelvis 4
   m_EditorClassIdentifier: 
   _id: P_5
+  IsPurchased: 1
   Sprite: {fileID: 21300000, guid: f5e38fc0746afdb408f3af29c6c737cc, type: 3}
   Price: 400
   StorekeeperQuote: Keep your secrets safe and your pelvis protected with our top-notch

@@ -33,8 +33,7 @@ namespace Item
 
         private string GetSavedValue()
         {
-            if (PlayerPrefs.HasKey(ID)) return PlayerPrefs.GetString(ID);
-            else
+            if (!PlayerPrefs.HasKey(ID))
             {
                 PlayerPrefs.SetString(ID, string.Empty);
             }

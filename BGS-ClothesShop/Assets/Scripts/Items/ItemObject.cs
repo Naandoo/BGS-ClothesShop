@@ -12,7 +12,7 @@ namespace Item
         [SerializeField] private TMP_Text _coinValue;
         [SerializeField] private Image _selectedFrame;
         public ItemScriptable ItemScriptable;
-        public bool isSelected;
+        public bool IsSelected;
         string selectedArmorKey;
 
         private void Start()
@@ -20,8 +20,19 @@ namespace Item
             selectedArmorKey = ItemScriptable.ID + " Selected";
 
             ItemScriptable.Initialize();
+            InitializeInitialItems();
             UpdateGUI();
             SubscribeInEvents();
+        }
+
+        private void InitializeInitialItems()
+        {
+            if (IsSelected && !PlayerPrefs.HasKey(selectedArmorKey))
+            {
+                PlayerPrefs.SetString(selectedArmorKey, "true");
+                ItemScriptable.Purchase();
+                ToggleSelectState(true);
+            }
         }
 
         private void OnDisable()
@@ -92,7 +103,7 @@ namespace Item
 
         private void ToggleSelectState(bool value)
         {
-            isSelected = value;
+            IsSelected = value;
             _selectedFrame.enabled = value;
         }
         public void SetParent(RectTransform rectTransform) => this.transform.SetParent(rectTransform);

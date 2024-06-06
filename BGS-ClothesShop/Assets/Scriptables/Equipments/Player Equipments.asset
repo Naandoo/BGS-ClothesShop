@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6f4fa44b5f20a349b1bb878a3015406, type: 3}
   m_Name: Player Equipments
   m_EditorClassIdentifier: 
-  _bootArmor: {fileID: 11400000, guid: 07ec242c2b5066f4da4079351ee3343b, type: 2}
-  _elbowArmor: {fileID: 11400000, guid: 34ce365e1d75e7f4195b75ad4d8500c8, type: 2}
-  _faceArmor: {fileID: 11400000, guid: 5d3fba3b7837c56429e4b489855812f2, type: 2}
-  _hoodArmor: {fileID: 11400000, guid: 2919e196713cbef4d88db87e6254e253, type: 2}
-  _pelvisArmor: {fileID: 11400000, guid: 097c00f5143b90247bdc18b9597cc273, type: 2}
-  _shoulderArmor: {fileID: 11400000, guid: d5001a85d12128449a62a98b8f587ef9, type: 2}
-  _torsoArmor: {fileID: 11400000, guid: f9c2006dd16ceca42bf9dae1bff11846, type: 2}
-  _wristArmor: {fileID: 11400000, guid: aecaae0af780b844da5f0bef0221e149, type: 2}
+  _bootArmor: {fileID: 11400000, guid: 01396ef16491c764086d4a03d88c8a86, type: 2}
+  _elbowArmor: {fileID: 11400000, guid: 1ff376e0b007dc54498c4b6b4f6891b6, type: 2}
+  _faceArmor: {fileID: 11400000, guid: a8461af065a5220479b349a3c4bafa20, type: 2}
+  _hoodArmor: {fileID: 11400000, guid: 1b74912239e6789469cf2be1557426dd, type: 2}
+  _pelvisArmor: {fileID: 11400000, guid: 513c05ca4fa030a449cc8616ef43100d, type: 2}
+  _shoulderArmor: {fileID: 11400000, guid: 024f4aea2e098cc4b93f0d85475a6b41, type: 2}
+  _torsoArmor: {fileID: 11400000, guid: 939e5d722bf8d72459b349d5e234af69, type: 2}
+  _wristArmor: {fileID: 11400000, guid: 39862d38031af1a42bdeaa5289704052, type: 2}

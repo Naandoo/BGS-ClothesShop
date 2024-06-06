@@ -56,7 +56,7 @@ namespace Store
 
         public void Sell(ItemObject itemObject)
         {
-            if (itemObject.isSelected) return;
+            if (itemObject.IsSelected) return;
             ItemScriptable itemScriptable = itemObject.ItemScriptable;
 
             itemObject.transform.SetParent(_onSaleContainer);

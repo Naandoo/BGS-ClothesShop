@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Torso 4
   m_EditorClassIdentifier: 
   _id: T_4
+  IsPurchased: 1
   Sprite: {fileID: 21300000, guid: 3d9056df586b6024fbc5b9fee2433eef, type: 3}
   Price: 600
   StorekeeperQuote: Whether you're facing a dragon's breath or just a chilly breeze,
