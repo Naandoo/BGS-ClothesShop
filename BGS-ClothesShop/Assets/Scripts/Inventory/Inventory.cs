@@ -43,42 +43,42 @@ namespace Inventory
             switch (itemScriptable._armorType)
             {
                 case ArmorType.Boot:
-                    _playerEquipments._bootArmor.Sprite = itemScriptable.Sprite;
+                    _playerEquipments._bootArmor = (DoubleSidedItemScriptable)itemScriptable;
                     _dummyVisual.SetBoots();
                     _playerVisual.SetBoots();
                     break;
                 case ArmorType.Elbow:
-                    _playerEquipments._elbowArmor.Sprite = itemScriptable.Sprite;
+                    _playerEquipments._elbowArmor = (DoubleSidedItemScriptable)itemScriptable;
                     _dummyVisual.SetElbows();
                     _playerVisual.SetElbows();
                     break;
                 case ArmorType.Face:
-                    _playerEquipments._faceArmor.Sprite = itemScriptable.Sprite;
+                    _playerEquipments._faceArmor = itemScriptable;
                     _dummyVisual.SetFace();
                     _playerVisual.SetFace();
                     break;
                 case ArmorType.Hood:
-                    _playerEquipments._hoodArmor.Sprite = itemScriptable.Sprite;
+                    _playerEquipments._hoodArmor = itemScriptable;
                     _dummyVisual.SetHood();
                     _playerVisual.SetHood();
                     break;
                 case ArmorType.Pelvis:
-                    _playerEquipments._pelvisArmor.Sprite = itemScriptable.Sprite;
+                    _playerEquipments._pelvisArmor = itemScriptable;
                     _dummyVisual.SetPelvis();
                     _playerVisual.SetPelvis();
                     break;
                 case ArmorType.Shoulder:
-                    _playerEquipments._shoulderArmor.Sprite = itemScriptable.Sprite;
+                    _playerEquipments._shoulderArmor = (DoubleSidedItemScriptable)itemScriptable;
                     _dummyVisual.SetShoulder();
                     _playerVisual.SetShoulder();
                     break;
                 case ArmorType.Torso:
-                    _playerEquipments._torsoArmor.Sprite = itemScriptable.Sprite;
+                    _playerEquipments._torsoArmor = itemScriptable;
                     _dummyVisual.SetTorso();
                     _playerVisual.SetTorso();
                     break;
                 case ArmorType.Wrist:
-                    _playerEquipments._wristArmor.Sprite = itemScriptable.Sprite;
+                    _playerEquipments._wristArmor = (DoubleSidedItemScriptable)itemScriptable;
                     _dummyVisual.SetWrist();
                     _playerVisual.SetWrist();
                     break;
