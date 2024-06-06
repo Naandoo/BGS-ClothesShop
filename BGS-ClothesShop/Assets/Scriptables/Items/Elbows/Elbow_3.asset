@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c91777376da2a748be4e6fd39e66df6, type: 3}
   m_Name: Elbow_3
   m_EditorClassIdentifier: 
+  ID: E_3
   Sprite: {fileID: 21300000, guid: 5e7415947ce8b1c47ade9a3d811da6cd, type: 3}
   Price: 200
   StorekeeperQuote: "lbow pads that fit so well, you'd think they were stolen \u2013
     but I assure you, they're legit!"
-  ID: E_3
+  _armorType: 1
   SecondSideSprite: {fileID: 21300000, guid: c100ecf6707adf24083cea1e4063c659, type: 3}

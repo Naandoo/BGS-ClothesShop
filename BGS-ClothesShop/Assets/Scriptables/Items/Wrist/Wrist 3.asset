@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c91777376da2a748be4e6fd39e66df6, type: 3}
   m_Name: Wrist 3
   m_EditorClassIdentifier: 
+  ID: W_3
   Sprite: {fileID: 21300000, guid: 44fa20638679f684891b3b8f8ae65078, type: 3}
   Price: 50
   StorekeeperQuote: "Our wrist gear is like a shield for your fists \u2013 because
     sometimes, you need to fight fire with... well, armor!"
-  ID: W_3
+  _armorType: 7
   SecondSideSprite: {fileID: 21300000, guid: 30716b7cc770c7b46beff26e032f9ca7, type: 3}

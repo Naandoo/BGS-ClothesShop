@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56b37ce8beb918748b1bb70a827daa12, type: 3}
   m_Name: Torso 6
   m_EditorClassIdentifier: 
+  ID: T_6
   Sprite: {fileID: 21300000, guid: 250530d3e9754ed418009e3d539275b3, type: 3}
   Price: 600
   StorekeeperQuote: "Our torso armor will have you feeling invincible \u2013 or at
     least looking like you are!"
-  ID: T_6
+  _armorType: 6

@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56b37ce8beb918748b1bb70a827daa12, type: 3}
   m_Name: Face_4
   m_EditorClassIdentifier: 
+  ID: F_5
   Sprite: {fileID: 21300000, guid: 7db7af78e8f9c45418a407bdd7958560, type: 3}
   Price: 350
   StorekeeperQuote: Feeling two-faced? Good! Our face swaps will make sure both look
     amazing!
-  ID: F_5
+  _armorType: 2

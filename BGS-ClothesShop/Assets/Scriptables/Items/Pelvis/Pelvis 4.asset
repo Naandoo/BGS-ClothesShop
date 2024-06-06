@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56b37ce8beb918748b1bb70a827daa12, type: 3}
   m_Name: Pelvis 4
   m_EditorClassIdentifier: 
+  ID: P_5
   Sprite: {fileID: 21300000, guid: f5e38fc0746afdb408f3af29c6c737cc, type: 3}
   Price: 400
   StorekeeperQuote: Keep your secrets safe and your pelvis protected with our top-notch
     gear!
-  ID: P_5
+  _armorType: 4

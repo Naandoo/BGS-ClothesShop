@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56b37ce8beb918748b1bb70a827daa12, type: 3}
   m_Name: Torso 5
   m_EditorClassIdentifier: 
+  ID: T_5
   Sprite: {fileID: 21300000, guid: fff248787aa9dc44d819b77a6686c0af, type: 3}
   Price: 600
   StorekeeperQuote: "Wrap yourself in confidence with our stylish torso gear \u2013
     you'll look so good, even the monsters will think twice before attacking!"
-  ID: T_5
+  _armorType: 6

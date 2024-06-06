@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6f4fa44b5f20a349b1bb878a3015406, type: 3}
+  m_Name: Player Equipments
+  m_EditorClassIdentifier: 
+  _bootArmor: {fileID: 11400000, guid: 07ec242c2b5066f4da4079351ee3343b, type: 2}
+  _elbowArmor: {fileID: 11400000, guid: 34ce365e1d75e7f4195b75ad4d8500c8, type: 2}
+  _faceArmor: {fileID: 11400000, guid: 13f8211fa1510564194334e5da74cca0, type: 2}
+  _hoodArmor: {fileID: 11400000, guid: 2919e196713cbef4d88db87e6254e253, type: 2}
+  _pelvisArmor: {fileID: 11400000, guid: 8c1844d309a4b0340961e5f4bf2de4a0, type: 2}
+  _shoulderArmor: {fileID: 11400000, guid: 84471884dd6dad54bbc0bfcf03e76696, type: 2}
+  _torsoArmor: {fileID: 11400000, guid: f9c2006dd16ceca42bf9dae1bff11846, type: 2}
+  _wristArmor: {fileID: 11400000, guid: aecaae0af780b844da5f0bef0221e149, type: 2}

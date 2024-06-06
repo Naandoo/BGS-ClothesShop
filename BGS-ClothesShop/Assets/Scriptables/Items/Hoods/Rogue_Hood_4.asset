@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56b37ce8beb918748b1bb70a827daa12, type: 3}
   m_Name: Rogue_Hood_4
   m_EditorClassIdentifier: 
-  Sprite: {fileID: 21300000, guid: 468244f274f38f64b85773c7888444b6, type: 3}
+  ID: H_3
+  Sprite: {fileID: 21300000, guid: dcb72940063c94f44abc2366768e713a, type: 3}
   Price: 150
-  StorekeeperQuote: Why just hide in the shadows when you can do it with style? Grab
-    a hat, blend in like a pro!
-  ID: H_4
+  StorekeeperQuote: Wear our hat and you might just get away with... well, everything!
+  _armorType: 3

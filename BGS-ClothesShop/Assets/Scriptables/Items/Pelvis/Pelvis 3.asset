@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56b37ce8beb918748b1bb70a827daa12, type: 3}
   m_Name: Pelvis 3
   m_EditorClassIdentifier: 
+  ID: P_4
   Sprite: {fileID: 21300000, guid: 4807dc8cba98f89409729f6aac2945a7, type: 3}
   Price: 400
   StorekeeperQuote: Our pelvis gear will make sure you walk with confidence and sit
     with ease!
-  ID: P_4
+  _armorType: 4

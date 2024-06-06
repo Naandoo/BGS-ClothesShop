@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c91777376da2a748be4e6fd39e66df6, type: 3}
   m_Name: Shoulder
   m_EditorClassIdentifier: 
+  ID: S_1
   Sprite: {fileID: 21300000, guid: aa3c97470a4d5234ea50591a35ff9616, type: 3}
   Price: 350
   StorekeeperQuote: Want to shoulder the weight of the world? Our shoulder pads make
     it look easy!
-  ID: S_1
+  _armorType: 5
   SecondSideSprite: {fileID: 21300000, guid: 9af6155338c0e8f4ab8f5bb30b4c586e, type: 3}

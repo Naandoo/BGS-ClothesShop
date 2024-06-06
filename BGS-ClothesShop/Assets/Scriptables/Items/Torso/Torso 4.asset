@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56b37ce8beb918748b1bb70a827daa12, type: 3}
   m_Name: Torso 4
   m_EditorClassIdentifier: 
+  ID: T_4
   Sprite: {fileID: 21300000, guid: 3d9056df586b6024fbc5b9fee2433eef, type: 3}
   Price: 600
   StorekeeperQuote: Whether you're facing a dragon's breath or just a chilly breeze,
     our torso armor has you covered!
-  ID: T_4
+  _armorType: 6

@@ -60,6 +60,7 @@ namespace Item
         public void Interact()
         {
             StoreEventHandler.Instance.OnItemInteraction(this);
+            InventoryManager.Instance.OnItemInteraction(this);
         }
 
         public void SetParent(RectTransform rectTransform) => this.transform.SetParent(rectTransform);

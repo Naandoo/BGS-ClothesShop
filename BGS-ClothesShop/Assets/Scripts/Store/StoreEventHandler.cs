@@ -45,7 +45,6 @@ namespace Store
 
         public void Buy(ItemObject itemObject)
         {
-
             ItemScriptable itemScriptable = itemObject.ItemScriptable;
 
             if (_coins.Value < itemScriptable.Price) return;
@@ -58,7 +57,6 @@ namespace Store
 
         public void Sell(ItemObject itemObject)
         {
-
             ItemScriptable itemScriptable = itemObject.ItemScriptable;
 
             itemObject.transform.SetParent(_onSaleContainer);

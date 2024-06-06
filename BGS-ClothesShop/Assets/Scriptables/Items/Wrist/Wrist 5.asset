@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c91777376da2a748be4e6fd39e66df6, type: 3}
   m_Name: Wrist 5
   m_EditorClassIdentifier: 
+  ID: W_5
   Sprite: {fileID: 21300000, guid: 767ae73862a0c7c418959a63daafaae9, type: 3}
   Price: 50
   StorekeeperQuote: "Give your punches a little extra oomph with our wrist gear \u2013
     because why settle for just winning when you can win with style?"
-  ID: W_5
+  _armorType: 7
   SecondSideSprite: {fileID: 21300000, guid: bbec2f9af2fefd4459cd1f041e6850cf, type: 3}

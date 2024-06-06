@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c91777376da2a748be4e6fd39e66df6, type: 3}
   m_Name: Elbow_1
   m_EditorClassIdentifier: 
-  Sprite: {fileID: 21300000, guid: fa66f03a93fcebb418b876e0f4731600, type: 3}
+  ID: E_1
+  Sprite: {fileID: 21300000, guid: 48ecbe245379f214497aae538fe1d4f3, type: 3}
   Price: 200
   StorekeeperQuote: Keep your elbows protected and your secrets safe with our stylish
     elbow pads!
-  ID: E_1
-  SecondSideSprite: {fileID: 21300000, guid: ab59709aadb3a224294b3c3b5c47cc79, type: 3}
+  _armorType: 1
+  SecondSideSprite: {fileID: 21300000, guid: ece48dca5e286fd48b5dc0633b08b15d, type: 3}

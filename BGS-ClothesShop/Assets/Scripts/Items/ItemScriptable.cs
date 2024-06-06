@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 namespace Item
@@ -6,11 +5,12 @@ namespace Item
     [CreateAssetMenu(fileName = "ItemScriptable", menuName = "Item/ItemScriptable")]
     public class ItemScriptable : ScriptableObject
     {
+        [SerializeField] private string ID;
         public Sprite Sprite;
         public int Price;
         public string StorekeeperQuote;
         public bool IsPurchased { get; private set; }
-        [SerializeField] private string ID;
+        public ArmorType _armorType;
 
         public void Initialize()
         {
@@ -41,4 +41,15 @@ namespace Item
         }
     }
 
+    public enum ArmorType
+    {
+        Boot,
+        Elbow,
+        Face,
+        Hood,
+        Pelvis,
+        Shoulder,
+        Torso,
+        Wrist
+    }
 }
