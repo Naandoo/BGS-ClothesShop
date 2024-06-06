@@ -59,6 +59,7 @@
     "dotnet.defaultSolution": "BGS-ClothesShop.sln",
     "cSpell.words": [
         "Behaviour",
+        "Prefs",
         "Scriptable"
     ]
 }

@@ -11,8 +11,11 @@ namespace Item
         [SerializeField] private TMP_Text _coinValue;
         public ItemScriptable ItemScriptable;
 
-        private void OnEnable() => UpdateGUI();
-
+        private void OnEnable()
+        {
+            ItemScriptable.Initialize();
+            UpdateGUI();
+        }
         public void UpdateGUI()
         {
             _image.sprite = ItemScriptable.Sprite;

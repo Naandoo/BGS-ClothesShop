@@ -9,8 +9,8 @@ namespace Store
 {
     public class StoreEventHandler : Singleton<StoreEventHandler>
     {
-        [SerializeField] private Transform _shopContainer;
-        [SerializeField] private Transform _inventoryContainer;
+        [SerializeField] private RectTransform _shopContainer;
+        [SerializeField] private RectTransform _inventoryContainer;
         [SerializeField] private IntVariable _coins;
         [SerializeField] private float _coinUpdateDuration;
         [SerializeField] private ShopkeeperQuotes _shopkeeperQuotes;
@@ -31,7 +31,7 @@ namespace Store
             itemObject.transform.SetParent(_inventoryContainer);
             StartCoroutine(DecrementCoins(itemScriptable.Price));
             _shopkeeperQuotes.UpdateText(itemScriptable);
-            itemScriptable.IsPurchased = true;
+            itemScriptable.Purchase();
         }
 
         public void Sell(ItemObject itemObject)
@@ -41,7 +41,7 @@ namespace Store
             itemObject.transform.SetParent(_shopContainer);
             StartCoroutine(IncreaseCoins(itemScriptable.Price));
             _shopkeeperQuotes.UpdateText(itemScriptable);
-            itemScriptable.IsPurchased = false;
+            itemScriptable.Sell();
         }
 
         private IEnumerator IncreaseCoins(int value)
