@@ -14,8 +14,7 @@ namespace Item
 
         public void Initialize()
         {
-            IsPurchased = PlayerPrefs.GetString(ID) == ID;
-            Debug.Log(ID + " " + IsPurchased);
+            IsPurchased = ID == GetSavedValue();
         }
 
         public void Purchase()

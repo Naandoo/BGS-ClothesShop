@@ -12,16 +12,18 @@ namespace Store
         {
             int childCount = _storeContainer.childCount;
 
-            for (int i = 0; i < childCount; i++)
+            while (childCount > 0)
             {
-                ItemObject item = _storeContainer.GetChild(i).GetComponent<ItemObject>();
+                ItemObject item = _storeContainer.GetChild(childCount - 1).GetComponent<ItemObject>();
                 if (item.ItemScriptable.IsPurchased)
                 {
                     item.transform.SetParent(_inventoryContainer);
-                    i--;
                 }
                 else item.transform.SetParent(_storeContainer);
+
+                childCount--;
             }
+
         }
     }
 }
