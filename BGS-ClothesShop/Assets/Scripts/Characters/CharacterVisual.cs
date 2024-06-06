@@ -17,7 +17,6 @@ namespace Character
         [SerializeField] private SpriteRenderer _torsoField;
         [SerializeField] private SpriteRenderer _leftWristField;
         [SerializeField] private SpriteRenderer _rightWristField;
-
         public Equipments _equipments;
 
         private void Start()

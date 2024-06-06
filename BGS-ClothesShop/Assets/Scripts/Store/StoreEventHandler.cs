@@ -16,13 +16,17 @@ namespace Store
         [SerializeField] private ShopkeeperQuotes _shopkeeperQuotes;
         [SerializeField] private Canvas _storeCanvas;
         [SerializeField] private Canvas _backgroundLayer;
+        [SerializeField] private BoolVariable _popupOpen;
         private WaitForSeconds _coinPerSeconds;
         private bool _storeOpen;
         public ContainerOpened OnStoreOpenEvent = new();
 
         public void InitializeStore()
         {
+            if (_storeOpen) return;
+
             _storeOpen = true;
+            _popupOpen.Value = true;
             OnStoreOpenEvent.Invoke(_onPurchaseBackContainer);
             _storeCanvas.enabled = true;
             _backgroundLayer.enabled = true;
@@ -33,6 +37,8 @@ namespace Store
             _storeOpen = false;
             _storeCanvas.enabled = false;
             _backgroundLayer.enabled = false;
+            _popupOpen.Value = false;
+
         }
 
         public void OnItemInteraction(ItemObject item)

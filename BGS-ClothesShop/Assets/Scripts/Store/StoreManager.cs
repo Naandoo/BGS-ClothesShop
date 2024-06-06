@@ -1,5 +1,5 @@
-using System.Collections.Generic;
 using Item;
+using ScriptableVariables;
 using UnityEngine;
 
 namespace Store
@@ -8,8 +8,14 @@ namespace Store
     {
         [SerializeField] private RectTransform _storeContainer;
         [SerializeField] private RectTransform _inventoryContainer;
-
+        [SerializeField] private BoolVariable _OpenPopup;
         private void Awake()
+        {
+            _OpenPopup.Value = false;
+            MovePurchasedItems();
+        }
+
+        private void MovePurchasedItems()
         {
             int childCount = _storeContainer.childCount;
 
@@ -24,7 +30,6 @@ namespace Store
 
                 childCount--;
             }
-
         }
     }
 }

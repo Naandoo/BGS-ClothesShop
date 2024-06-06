@@ -2,6 +2,7 @@ using UnityEngine;
 using Item;
 using Character;
 using UnityEngine.Events;
+using ScriptableVariables;
 
 namespace Inventory
 {
@@ -13,6 +14,7 @@ namespace Inventory
         [SerializeField] private CharacterVisual _dummyVisual;
         [SerializeField] private CharacterVisual _playerVisual;
         [SerializeField] private Equipments _playerEquipments;
+        [SerializeField] private BoolVariable _popupOpen;
         private bool _inventoryOpen;
         public ContainerOpened OnInventoryOpenEvent = new();
         public EquipmentChange OnEquipmentChangeEvent = new();
@@ -20,6 +22,8 @@ namespace Inventory
         public void InitializeInventory()
         {
             _inventoryOpen = true;
+            _popupOpen.Value = true;
+
             OnInventoryOpenEvent.Invoke(_inventoryContainer);
             _inventoryCanvas.enabled = true;
             _backgroundLayer.enabled = true;
@@ -30,6 +34,7 @@ namespace Inventory
             _inventoryOpen = false;
             _inventoryCanvas.enabled = false;
             _backgroundLayer.enabled = false;
+            _popupOpen.Value = false;
         }
 
         public void OnItemInteraction(ItemObject item)

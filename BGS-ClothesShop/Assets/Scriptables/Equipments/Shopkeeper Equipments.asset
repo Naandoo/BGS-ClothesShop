@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6f4fa44b5f20a349b1bb878a3015406, type: 3}
+  m_Name: Shopkeeper Equipments
+  m_EditorClassIdentifier: 
+  _bootArmor: {fileID: 11400000, guid: 2a293cb9daeda4749b8ce6ca33ff32f6, type: 2}
+  _elbowArmor: {fileID: 11400000, guid: 1ff376e0b007dc54498c4b6b4f6891b6, type: 2}
+  _faceArmor: {fileID: 11400000, guid: ae936011cac544e419732af7a5317038, type: 2}
+  _hoodArmor: {fileID: 11400000, guid: 854029505da22aa4890b85b658298f05, type: 2}
+  _pelvisArmor: {fileID: 11400000, guid: 854029505da22aa4890b85b658298f05, type: 2}
+  _shoulderArmor: {fileID: 11400000, guid: c8ce2a73dfe46eb41b80c5b874db5bca, type: 2}
+  _torsoArmor: {fileID: 11400000, guid: a125f8308c922b24c99edc21d0e5d5c6, type: 2}
+  _wristArmor: {fileID: 11400000, guid: 4477a3a7e5e1b8f4889076bca976dbca, type: 2}

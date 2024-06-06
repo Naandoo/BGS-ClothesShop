@@ -2,7 +2,6 @@ using UnityEngine;
 using Item;
 using TMPro;
 using System.Collections;
-using System.Text;
 
 namespace Shopkeeper
 {
