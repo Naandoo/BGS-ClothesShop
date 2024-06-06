@@ -38,7 +38,6 @@ namespace Store
         public void OnItemInteraction(ItemObject item)
         {
             if (!_storeOpen) return;
-
             if (item.ItemScriptable.IsPurchased) Sell(item);
             else Buy(item);
         }
@@ -57,6 +56,7 @@ namespace Store
 
         public void Sell(ItemObject itemObject)
         {
+            if (itemObject.isSelected) return;
             ItemScriptable itemScriptable = itemObject.ItemScriptable;
 
             itemObject.transform.SetParent(_onSaleContainer);

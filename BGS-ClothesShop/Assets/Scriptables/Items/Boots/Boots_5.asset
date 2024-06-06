@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c91777376da2a748be4e6fd39e66df6, type: 3}
   m_Name: Boots_5
   m_EditorClassIdentifier: 
+  _id: B_5
   Sprite: {fileID: 21300000, guid: add7b98e4870e9d4c8e1dd5e07e3de1c, type: 3}
   Price: 50
   StorekeeperQuote: "Our boots are like magic \u2013 they'll have you disappearing
     in style!"
-  ID: B_5
+  _armorType: 0
   SecondSideSprite: {fileID: 21300000, guid: a366da325a505654e94ff671e63cde89, type: 3}

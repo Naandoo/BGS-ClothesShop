@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56b37ce8beb918748b1bb70a827daa12, type: 3}
   m_Name: Torso 1
   m_EditorClassIdentifier: 
-  ID: T_1
+  _id: T_1
   Sprite: {fileID: 21300000, guid: 215dd6c48c732d744aecd29e7fecbbfa, type: 3}
   Price: 600
   StorekeeperQuote: Need armor that hugs you like a long-lost friend? Our torso gear

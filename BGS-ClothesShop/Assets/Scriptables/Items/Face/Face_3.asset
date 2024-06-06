@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56b37ce8beb918748b1bb70a827daa12, type: 3}
   m_Name: Face_3
   m_EditorClassIdentifier: 
-  ID: F_4
+  _id: F_4
   Sprite: {fileID: 21300000, guid: f0dca671fefddc54c98270536b979b8b, type: 3}
   Price: 350
   StorekeeperQuote: Want to baffle your enemies? Swap faces and keep them guessing

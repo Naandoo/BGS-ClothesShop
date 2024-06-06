@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56b37ce8beb918748b1bb70a827daa12, type: 3}
   m_Name: Pelvis 2
   m_EditorClassIdentifier: 
-  ID: P_3
+  _id: P_3
   Sprite: {fileID: 21300000, guid: 0c6412d95175c2b40bd9a27f7d1fa096, type: 3}
   Price: 400
   StorekeeperQuote: Worried about those low blows? Our pelvis protection has got

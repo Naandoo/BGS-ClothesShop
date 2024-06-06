@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56b37ce8beb918748b1bb70a827daa12, type: 3}
   m_Name: Rogue_Hood_2
   m_EditorClassIdentifier: 
-  ID: H_2
+  _id: H_2
   Sprite: {fileID: 21300000, guid: f7e7bed775fff8347b9e53c67e20875f, type: 3}
   Price: 150
   StorekeeperQuote: This hat could be your new partner in crime. Think of it as your

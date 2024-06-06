@@ -1,6 +1,7 @@
 using UnityEngine;
 using Item;
 using Character;
+using UnityEngine.Events;
 
 namespace Inventory
 {
@@ -12,9 +13,9 @@ namespace Inventory
         [SerializeField] private CharacterVisual _dummyVisual;
         [SerializeField] private CharacterVisual _playerVisual;
         [SerializeField] private Equipments _playerEquipments;
-
         private bool _inventoryOpen;
         public ContainerOpened OnInventoryOpenEvent = new();
+        public EquipmentChange OnEquipmentChangeEvent = new();
 
         public void InitializeInventory()
         {
@@ -35,11 +36,12 @@ namespace Inventory
         {
             if (!_inventoryOpen) return;
 
-            UpdateEquipment(item.ItemScriptable);
+            UpdateEquipment(item);
         }
 
-        private void UpdateEquipment(ItemScriptable itemScriptable)
+        private void UpdateEquipment(ItemObject item)
         {
+            ItemScriptable itemScriptable = item.ItemScriptable;
             switch (itemScriptable._armorType)
             {
                 case ArmorType.Boot:
@@ -83,6 +85,10 @@ namespace Inventory
                     _playerVisual.SetWrist();
                     break;
             }
+
+            OnEquipmentChangeEvent.Invoke(item);
         }
     }
+
+    public class EquipmentChange : UnityEvent<ItemObject> { }
 }

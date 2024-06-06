@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56b37ce8beb918748b1bb70a827daa12, type: 3}
   m_Name: Pelvis 5
   m_EditorClassIdentifier: 
-  ID: P_6
+  _id: P_6
   Sprite: {fileID: 21300000, guid: b1babcb6ce4ee78478abc5076a6d1b8d, type: 3}
   Price: 400
   StorekeeperQuote: "With our pelvis protection, you'll be untouchable \u2013 in

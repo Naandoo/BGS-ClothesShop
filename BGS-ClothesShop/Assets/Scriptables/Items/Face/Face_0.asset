@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56b37ce8beb918748b1bb70a827daa12, type: 3}
   m_Name: Face_0
   m_EditorClassIdentifier: 
-  ID: F_1
+  _id: F_1
   Sprite: {fileID: 21300000, guid: 518ab34707033904cb1d99dbfcc9f4bb, type: 3}
   Price: 350
   StorekeeperQuote: Tired of your old mug? Try on a new face today and watch jaws

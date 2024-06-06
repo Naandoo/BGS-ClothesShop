@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c91777376da2a748be4e6fd39e66df6, type: 3}
   m_Name: Shoulder 4
   m_EditorClassIdentifier: 
-  ID: S_5
+  _id: S_5
   Sprite: {fileID: 21300000, guid: 9573c51cf9ed4c94ca1925d245b830c5, type: 3}
   Price: 350
   StorekeeperQuote: Give those shoulders a stylish upgrade with our top-tier shoulder

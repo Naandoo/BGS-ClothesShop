@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56b37ce8beb918748b1bb70a827daa12, type: 3}
   m_Name: Torso 2
   m_EditorClassIdentifier: 
-  ID: T_2
+  _id: T_2
   Sprite: {fileID: 21300000, guid: 90458a12b047bb84ba77cb7ea81ba457, type: 3}
   Price: 600
   StorekeeperQuote: Keep your heart safe and your style game strong with our top-notch

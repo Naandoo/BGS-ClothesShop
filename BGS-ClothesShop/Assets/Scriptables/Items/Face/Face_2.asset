@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56b37ce8beb918748b1bb70a827daa12, type: 3}
   m_Name: Face_2
   m_EditorClassIdentifier: 
-  ID: F_3
+  _id: F_3
   Sprite: {fileID: 21300000, guid: 41375989850254546b76c3a6813e6d19, type: 3}
   Price: 350
   StorekeeperQuote: New face, who dis? With this, even your own reflection won't

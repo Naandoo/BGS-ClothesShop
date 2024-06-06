@@ -5,11 +5,13 @@ namespace Item
     [CreateAssetMenu(fileName = "ItemScriptable", menuName = "Item/ItemScriptable")]
     public class ItemScriptable : ScriptableObject
     {
-        [SerializeField] private string ID;
+        [SerializeField] private string _id;
+        public string ID { get => _id; set => _id = value; }
         public Sprite Sprite;
         public int Price;
         public string StorekeeperQuote;
         public bool IsPurchased { get; private set; }
+
         public ArmorType _armorType;
 
         public void Initialize()
