@@ -42,7 +42,12 @@ namespace Item
 
         private void SubscribeInEvents()
         {
-            StoreEventHandler.Instance.OnStoreOpenEvent.AddListener((RectTransform rectTransform) =>
+            StoreEventHandler.Instance.OnSaleEvent.AddListener((RectTransform rectTransform) =>
+            {
+                if (!ItemScriptable.IsPurchased) SetParent(rectTransform);
+            });
+
+            StoreEventHandler.Instance.OnPurchaseBackEvent.AddListener((RectTransform rectTransform) =>
             {
                 if (ItemScriptable.IsPurchased) SetParent(rectTransform);
             });
@@ -57,10 +62,15 @@ namespace Item
 
         private void UnsubscribeInEvents()
         {
-            StoreEventHandler.Instance.OnStoreOpenEvent.RemoveListener((RectTransform rectTransform) =>
+            StoreEventHandler.Instance.OnSaleEvent.RemoveListener((RectTransform rectTransform) =>
             {
                 if (ItemScriptable.IsPurchased) SetParent(rectTransform);
             });
+
+            StoreEventHandler.Instance.OnPurchaseBackEvent.RemoveListener((RectTransform rectTransform) =>
+           {
+               if (ItemScriptable.IsPurchased) SetParent(rectTransform);
+           });
 
             InventoryManager.Instance.OnInventoryOpenEvent.RemoveListener((RectTransform rectTransform) =>
             {
@@ -68,7 +78,6 @@ namespace Item
             });
 
             InventoryManager.Instance.OnEquipmentChangeEvent.RemoveListener((ItemObject item) => ToggleSelectItem(item));
-
         }
 
         public void UpdateGUI()

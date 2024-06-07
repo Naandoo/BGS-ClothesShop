@@ -21,7 +21,8 @@ namespace Store
         [SerializeField] private UnityEvent _onStoreOpen;
         private WaitForSeconds _coinPerSeconds;
         private bool _storeOpen;
-        public ContainerOpened OnStoreOpenEvent = new();
+        public ContainerOpened OnSaleEvent = new();
+        public ContainerOpened OnPurchaseBackEvent = new();
 
         public void InitializeStore()
         {
@@ -30,7 +31,8 @@ namespace Store
             _onStoreOpen.Invoke();
             _storeOpen = true;
             _popupOpen.Value = true;
-            OnStoreOpenEvent.Invoke(_onPurchaseBackContainer);
+            OnSaleEvent.Invoke(_onSaleContainer);
+            OnPurchaseBackEvent.Invoke(_onPurchaseBackContainer);
             _storeCanvas.enabled = true;
             _backgroundLayer.enabled = true;
         }

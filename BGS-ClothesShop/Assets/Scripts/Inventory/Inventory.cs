@@ -3,6 +3,7 @@ using Item;
 using Character;
 using UnityEngine.Events;
 using ScriptableVariables;
+using Store;
 
 namespace Inventory
 {
@@ -21,6 +22,8 @@ namespace Inventory
 
         public void InitializeInventory()
         {
+            if (_popupOpen.Value) return;
+
             _inventoryOpen = true;
             _popupOpen.Value = true;
             _inventoryContainer.gameObject.SetActive(true);
