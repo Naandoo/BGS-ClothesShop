@@ -4,6 +4,7 @@ using Item;
 using ScriptableVariables;
 using Shopkeeper;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace Store
 {
@@ -17,6 +18,7 @@ namespace Store
         [SerializeField] private Canvas _storeCanvas;
         [SerializeField] private Canvas _backgroundLayer;
         [SerializeField] private BoolVariable _popupOpen;
+        [SerializeField] private UnityEvent _onStoreOpen;
         private WaitForSeconds _coinPerSeconds;
         private bool _storeOpen;
         public ContainerOpened OnStoreOpenEvent = new();
@@ -24,7 +26,8 @@ namespace Store
         public void InitializeStore()
         {
             if (_storeOpen) return;
-            _onSaleContainer.gameObject.SetActive(true);
+
+            _onStoreOpen.Invoke();
             _storeOpen = true;
             _popupOpen.Value = true;
             OnStoreOpenEvent.Invoke(_onPurchaseBackContainer);
