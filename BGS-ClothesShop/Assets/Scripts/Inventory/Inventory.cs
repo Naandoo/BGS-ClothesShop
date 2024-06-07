@@ -47,7 +47,7 @@ namespace Inventory
             UpdateEquipment(item);
         }
 
-        private void UpdateEquipment(ItemObject item)
+        public void UpdateEquipment(ItemObject item)
         {
             ItemScriptable itemScriptable = item.ItemScriptable;
             switch (itemScriptable._armorType)

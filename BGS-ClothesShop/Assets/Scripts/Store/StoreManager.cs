@@ -1,3 +1,5 @@
+using Character;
+using Inventory;
 using Item;
 using ScriptableVariables;
 using UnityEngine;
@@ -9,6 +11,9 @@ namespace Store
         [SerializeField] private RectTransform _storeContainer;
         [SerializeField] private RectTransform _inventoryContainer;
         [SerializeField] private BoolVariable _OpenPopup;
+        [SerializeField] private Equipments _playerEquipments;
+        [SerializeField] private CharacterVisual _playerVisual;
+
         private void Awake()
         {
             _OpenPopup.Value = false;
