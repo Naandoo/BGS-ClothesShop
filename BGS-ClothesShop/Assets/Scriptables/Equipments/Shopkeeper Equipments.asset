@@ -16,7 +16,7 @@ MonoBehaviour:
   _elbowArmor: {fileID: 11400000, guid: 1ff376e0b007dc54498c4b6b4f6891b6, type: 2}
   _faceArmor: {fileID: 11400000, guid: ae936011cac544e419732af7a5317038, type: 2}
   _hoodArmor: {fileID: 11400000, guid: 854029505da22aa4890b85b658298f05, type: 2}
-  _pelvisArmor: {fileID: 11400000, guid: 854029505da22aa4890b85b658298f05, type: 2}
+  _pelvisArmor: {fileID: 11400000, guid: 9a307fef91f69bc4c9b77b51760cab6c, type: 2}
   _shoulderArmor: {fileID: 11400000, guid: c8ce2a73dfe46eb41b80c5b874db5bca, type: 2}
   _torsoArmor: {fileID: 11400000, guid: a125f8308c922b24c99edc21d0e5d5c6, type: 2}
   _wristArmor: {fileID: 11400000, guid: 4477a3a7e5e1b8f4889076bca976dbca, type: 2}
