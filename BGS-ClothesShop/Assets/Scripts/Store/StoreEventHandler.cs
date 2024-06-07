@@ -24,7 +24,7 @@ namespace Store
         public void InitializeStore()
         {
             if (_storeOpen) return;
-
+            _onSaleContainer.gameObject.SetActive(true);
             _storeOpen = true;
             _popupOpen.Value = true;
             OnStoreOpenEvent.Invoke(_onPurchaseBackContainer);

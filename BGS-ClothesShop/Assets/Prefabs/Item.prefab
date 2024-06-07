@@ -63,9 +63,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _image: {fileID: 7787576711725937562}
   _coinValue: {fileID: 4478122551752296511}
-  ItemScriptable: {fileID: 0}
   _selectedFrame: {fileID: 1291172820871469231}
-  isSelected: 0
+  ItemScriptable: {fileID: 0}
+  IsSelected: 0
 --- !u!1 &4573659465902239248
 GameObject:
   m_ObjectHideFlags: 0
@@ -514,8 +514,6 @@ GameObject:
   - component: {fileID: 8776161992968337715}
   - component: {fileID: 5047203050048521881}
   - component: {fileID: 1245308153728543060}
-  - component: {fileID: 4960051211671834791}
-  - component: {fileID: 3997121279811925548}
   m_Layer: 5
   m_Name: Frame
   m_TagString: Untagged
@@ -624,43 +622,3 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!223 &4960051211671834791
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8931441791069355936}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 2
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 1
-  m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 0
-  m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!114 &3997121279811925548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8931441791069355936}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295

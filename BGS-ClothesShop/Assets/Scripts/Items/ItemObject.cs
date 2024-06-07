@@ -15,7 +15,7 @@ namespace Item
         public bool IsSelected;
         string selectedArmorKey;
 
-        private void Start()
+        private void Awake()
         {
             selectedArmorKey = ItemScriptable.ID + " Selected";
 

@@ -23,7 +23,7 @@ namespace Inventory
         {
             _inventoryOpen = true;
             _popupOpen.Value = true;
-
+            _inventoryContainer.gameObject.SetActive(true);
             OnInventoryOpenEvent.Invoke(_inventoryContainer);
             _inventoryCanvas.enabled = true;
             _backgroundLayer.enabled = true;
