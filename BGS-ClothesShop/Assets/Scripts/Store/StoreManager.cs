@@ -13,6 +13,7 @@ namespace Store
         [SerializeField] private BoolVariable _OpenPopup;
         [SerializeField] private Equipments _playerEquipments;
         [SerializeField] private CharacterVisual _playerVisual;
+
         private void Awake()
         {
             _OpenPopup.Value = false;
@@ -29,7 +30,6 @@ namespace Store
                 if (item.ItemScriptable.IsPurchased)
                 {
                     item.transform.SetParent(_inventoryContainer);
-                    if (item.IsSelected) InventoryManager.Instance.UpdateEquipment(item);
                 }
                 else item.transform.SetParent(_storeContainer);
 

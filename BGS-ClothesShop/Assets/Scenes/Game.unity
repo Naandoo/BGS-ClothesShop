@@ -4582,6 +4582,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _inventoryContainer: {fileID: 406208723}
+  _storage: {fileID: 1614492639}
   _inventoryCanvas: {fileID: 685549280}
   _backgroundLayer: {fileID: 241296155}
   _dummyVisual: {fileID: 94161564}
@@ -7762,6 +7763,8 @@ MonoBehaviour:
   _storeContainer: {fileID: 163763433}
   _inventoryContainer: {fileID: 406208723}
   _OpenPopup: {fileID: 11400000, guid: ae81605b9cde5aa4ba59474ea4a8f625, type: 2}
+  _playerEquipments: {fileID: 0}
+  _playerVisual: {fileID: 0}
 --- !u!1001 &1182492624
 PrefabInstance:
   m_ObjectHideFlags: 0
